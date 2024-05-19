@@ -92,7 +92,7 @@ function About() {
       </Card>
       
       {/* Agregando equipo */}
-      <Typography variant="h4" component="h2" gutterBottom style={{ marginTop: '20px', color: 'black' }}>
+      <Typography variant="h3" component="h3" gutterBottom align="center" style={{ color: 'black' }}>
         Nuestro Equipo
       </Typography>
       <Grid container spacing={5} justifyContent="center">

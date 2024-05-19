@@ -1,8 +1,6 @@
-// src/App.js
-
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-router-dom';
-import { Button, Container, Grid, Typography } from '@mui/material';
+import { Button, Container, Grid } from '@mui/material';
 import TodoList from './TodoList';
 import About from './About';
 import Login from './Login';
@@ -17,13 +15,12 @@ function App() {
       <div>
         <nav style={{ padding: '10px', backgroundColor: 'rgba(0, 0, 255, 0.5)', marginBottom: '20px' }}>
           <Grid container alignItems="center">
-            <Grid item xs={3}>
-            <Link to="./About" variant="h" style={{ color: 'white' }}>Home</Link>
+            <Grid item xs={6}>
+              <Link to="/about" style={{ color: 'white', textDecoration: 'none', fontSize: '24px' }}>
+                Notly
+              </Link>
             </Grid>
-            <Grid item xs={6} style={{ textAlign: 'center' }}>
-              <Typography variant="h4" style={{ color: 'white' }}>N O T L Y</Typography>
-            </Grid>
-            <Grid item xs={3} style={{ textAlign: 'right' }}>
+            <Grid item xs={6} style={{ display: 'flex', justifyContent: 'flex-end' }}>
               {isAuthenticated ? (
                 <>
                   <Link to="/todolist" style={{ marginRight: '10px' }}>
@@ -65,3 +62,4 @@ function App() {
 }
 
 export default App;
+
