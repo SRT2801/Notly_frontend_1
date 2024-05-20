@@ -1,14 +1,14 @@
 import React from 'react';
-import CarouselHome from './CarouselHome';
+import CarouselHome from '../../components/Carrousel/CarouselHome';
 import { Container, Typography, Grid, Card, CardContent, CardMedia, Box, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom'; // Importar Link de react-router-dom
-import teamImage1 from './imagenes/Alvaro.jpg';
-import teamImage2 from './imagenes/balza.jpg';
-import teamImage3 from './imagenes/sahir.jpg';
-import teamImage4 from './imagenes/Jared.jpg';
-import missionImage from './imagenes/mision.jpg';
-import historyImage from './imagenes/historia.jpg'; // Nueva imagen para la historia
-import timelineImage from './imagenes/linea de tiempo.jpg'; // Línea de tiempo visual
+import teamImage1 from '../../imagenes/Alvaro.jpg';
+import teamImage2 from '../../imagenes/balza.jpg';
+import teamImage3 from '../../imagenes/sahir.jpg';
+import teamImage4 from '../../imagenes/Jared.jpg';
+import missionImage from '../../imagenes/mision.jpg';
+import historyImage from '../../imagenes/historia.jpg'; // Nueva imagen para la historia
+import timelineImage from '../../imagenes/linea de tiempo.jpg'; // Línea de tiempo visual
 
 // Estilos para las tarjetas
 const cardStyles = {

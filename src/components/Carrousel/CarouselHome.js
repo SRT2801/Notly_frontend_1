@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
-import imagen1 from './imagenes/Notly.png';
-import imagen2 from './imagenes/Notly 2.png';
-import imagen3 from './imagenes/Notly 3.png'; 
+import imagen1 from '../../imagenes/Notly.png'
+import imagen2 from '../../imagenes/Notly 2.png';
+import imagen3 from '../../imagenes/Notly 3.png'; 
 
 function CarouselHome() {
   return (
